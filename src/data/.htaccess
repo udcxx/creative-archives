@@ -1,0 +1,7 @@
+SetEnvIf Referer "^https://www\.play\.udcxx\.me" mysite
+SetEnvIf Referer "^https://play\.udcxx\.me" mysite
+SetEnvIf Referer "^https://www\.app\.udcxx\.me" mysite
+SetEnvIf Referer "^https://app\.udcxx\.me" mysite
+Order Deny,Allow
+Deny from all
+Allow from env=mysite

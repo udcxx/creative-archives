@@ -1,3 +1,19 @@
+<?php
+
+    session_start();
+
+    $data_souce = "public";
+    $is_login = '<a href="./login/" class="is_secret_mode">ログイン</a>';
+
+    if (isset($_SESSION["isLogin"])) {
+        if ($_SESSION["isLogin"]) {
+            $data_souce = "private";
+            $is_login = '<p class="is_secret_mode">シークレットモードで表示中</p>';
+        }
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -19,6 +35,7 @@
                 <img src="https://blog.udcxx.me/_nuxt/logo.85a8d4fc.png" class="header--image">
             </a>
             <h1>udcxx creative archives</h1>
+            <?php echo $is_login; ?>
         </div>
         <div class="filter">
             <div class="secret filter--item">
@@ -77,7 +94,7 @@
     </main>
 
     <script>
-        const dataSouce = './data/public.json';
+        const dataSouce = './data/<?php echo $data_souce; ?>.json';
         let dataSet = {};
         fetch(dataSouce).then((response) => response.json()).then((data) => {dataSet = data; init();});
     </script>

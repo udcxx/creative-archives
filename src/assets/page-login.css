@@ -9,4 +9,60 @@ PAGE-LOGIN
 .box {
     width: 60rem; max-width: 95%;
     margin:  4rem auto;
+    padding: 1rem 0 5rem;
+    border-radius: 10px;
+    background-color: var(--color-background-side);
+}
+
+.box a {
+    margin-left: 1rem;
+    color: var(--color-orange);
+    font-size: 1.6rem;
+}
+
+.box h2 {
+    margin: 5rem auto;
+    font-size: 3rem; font-weight: bold;
+    text-align: center;
+}
+
+.box p {
+    margin-bottom: 4rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.box p.error {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    color: var(--color-red);
+    text-align: center;
+}
+
+.box .input--code {
+    width: 90%;
+    margin: 4rem auto 2rem;
+    display: block;
+    font-size: 1.8rem;
+    line-height: 2em;
+    color: var(--color-black);
+    text-align: center;
+    border: none;
+    outline: none; appearance: none;
+    border-radius: 10px;
+    background-color: var(--color-gray);
+}
+
+.box button {
+    margin: 2rem auto 0;
+    padding: 1rem 2rem;
+    font-size: 1.4rem; font-weight: bold;
+    color: var(--color-white);
+    letter-spacing: 0.2em;
+    display: block;
+    outline: none; appearance: none;
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid 2px var(--color-white);
+    background-color: var(--color-orange);
 }

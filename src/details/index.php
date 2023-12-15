@@ -1,3 +1,15 @@
+<?php
+    session_start();
+
+    $data_souce = "public";
+
+    if (isset($_SESSION["isLogin"])) {
+        if ($_SESSION["isLogin"]) {
+            $data_souce = "private";
+        }
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -57,7 +69,7 @@
 
     <script>
         const params = location.search.substring(1).split('&');
-        const dataSouce = '../data/public.json';
+        const dataSouce = '../data/<?php echo $data_souce; ?>.json';
         let creativecode = 0;
 
         params.forEach((pram) => {
