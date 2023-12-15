@@ -1,0 +1,1550 @@
+{
+    "records": [
+        {
+            "レコード番号": {
+                "type": "RECORD_NUMBER",
+                "value": "13"
+            },
+            "CREATIVE_TAG": {
+                "type": "CHECK_BOX",
+                "value": [
+                    "静的ページ"
+                ]
+            },
+            "CREATIVE_REQUESTER": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "株式会社 ファンケル"
+            },
+            "状況": {
+                "type": "DROP_DOWN",
+                "value": "本番公開中"
+            },
+            "更新者": {
+                "type": "MODIFIER",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATE_MONTH": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_SIZE": {
+                "type": "DROP_DOWN",
+                "value": "PC/SP"
+            },
+            "CREATIVE_TITLE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "MamaLula LP"
+            },
+            "CREATE_YEAR": {
+                "type": "NUMBER",
+                "value": "2020"
+            },
+            "CREATIVE_URL": {
+                "type": "LINK",
+                "value": "https://www.fancl.co.jp/pub/mom/index_lis.html"
+            },
+            "文字列__複数行_": {
+                "type": "MULTI_LINE_TEXT",
+                "value": ""
+            },
+            "全体キャプチャ": {
+                "type": "FILE",
+                "value": [
+                    {
+                        "fileKey": "20231213111408DBF5E54106D14EB792B16DFD3062542A235",
+                        "name": "13-pc-f.jpg",
+                        "contentType": "image/jpeg",
+                        "size": "22311889"
+                    },
+                    {
+                        "fileKey": "20231213111409C6E481F303A54D7A95E73C7F90E27644076",
+                        "name": "13-sp-f.jpg",
+                        "contentType": "image/jpeg",
+                        "size": "8432625"
+                    }
+                ]
+            },
+            "発注元": {
+                "type": "DROP_DOWN",
+                "value": "CA（モノクラム）"
+            },
+            "CREATE_DAY": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_TEXT": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "ファンケル様の「Mama lua」のLP更新を担当しました。\n● 対応領域：コーディング ● 対応人数：1名"
+            },
+            "公開フラグ": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "🔒 非公開"
+            },
+            "作成者": {
+                "type": "CREATOR",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATIVE_CODE": {
+                "type": "NUMBER",
+                "value": "13"
+            },
+            "$revision": {
+                "type": "__REVISION__",
+                "value": "4"
+            },
+            "更新日時": {
+                "type": "UPDATED_TIME",
+                "value": "2023-12-14T08:51:00Z"
+            },
+            "CREATE_DATE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "2020"
+            },
+            "CREATIVE_PUBLIC": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "PRIVATE"
+            },
+            "添付ファイル": {
+                "type": "FILE",
+                "value": []
+            },
+            "CREATIVE_CATEGORY": {
+                "type": "DROP_DOWN",
+                "value": "LP"
+            },
+            "作成日時": {
+                "type": "CREATED_TIME",
+                "value": "2023-12-13T11:13:00Z"
+            },
+            "$id": {
+                "type": "__ID__",
+                "value": "13"
+            }
+        },
+        {
+            "レコード番号": {
+                "type": "RECORD_NUMBER",
+                "value": "12"
+            },
+            "CREATIVE_TAG": {
+                "type": "CHECK_BOX",
+                "value": [
+                    "静的ページ"
+                ]
+            },
+            "CREATIVE_REQUESTER": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "株式会社 ファンケル"
+            },
+            "状況": {
+                "type": "DROP_DOWN",
+                "value": "非公開/掲載終了"
+            },
+            "更新者": {
+                "type": "MODIFIER",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATE_MONTH": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_SIZE": {
+                "type": "DROP_DOWN",
+                "value": "SP"
+            },
+            "CREATIVE_TITLE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "無添加エンリッチ"
+            },
+            "CREATE_YEAR": {
+                "type": "NUMBER",
+                "value": "2021"
+            },
+            "CREATIVE_URL": {
+                "type": "LINK",
+                "value": "https://www.fancl.co.jp/pub/ergb/index_lis_sp.html"
+            },
+            "文字列__複数行_": {
+                "type": "MULTI_LINE_TEXT",
+                "value": ""
+            },
+            "全体キャプチャ": {
+                "type": "FILE",
+                "value": [
+                    {
+                        "fileKey": "20231213111223FF053FE8BC6A483CBD9DF38395A9648E180",
+                        "name": "12-sp-f.png",
+                        "contentType": "image/png",
+                        "size": "17236486"
+                    }
+                ]
+            },
+            "発注元": {
+                "type": "DROP_DOWN",
+                "value": "CA（モノクラム）"
+            },
+            "CREATE_DAY": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_TEXT": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "ファンケル様の「無添加エンリッチ」のLPを制作しました。\n● 対応領域：コーディング ● 対応人数：1名"
+            },
+            "公開フラグ": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "🔒 非公開"
+            },
+            "作成者": {
+                "type": "CREATOR",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATIVE_CODE": {
+                "type": "NUMBER",
+                "value": "12"
+            },
+            "$revision": {
+                "type": "__REVISION__",
+                "value": "4"
+            },
+            "更新日時": {
+                "type": "UPDATED_TIME",
+                "value": "2023-12-14T08:51:00Z"
+            },
+            "CREATE_DATE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "2021"
+            },
+            "CREATIVE_PUBLIC": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "PRIVATE"
+            },
+            "添付ファイル": {
+                "type": "FILE",
+                "value": []
+            },
+            "CREATIVE_CATEGORY": {
+                "type": "DROP_DOWN",
+                "value": "LP"
+            },
+            "作成日時": {
+                "type": "CREATED_TIME",
+                "value": "2023-12-13T11:01:00Z"
+            },
+            "$id": {
+                "type": "__ID__",
+                "value": "12"
+            }
+        },
+        {
+            "レコード番号": {
+                "type": "RECORD_NUMBER",
+                "value": "11"
+            },
+            "CREATIVE_TAG": {
+                "type": "CHECK_BOX",
+                "value": [
+                    "静的ページ",
+                    "アニメーションがポイント"
+                ]
+            },
+            "CREATIVE_REQUESTER": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "株式会社 ファンケル"
+            },
+            "状況": {
+                "type": "DROP_DOWN",
+                "value": "非公開/掲載終了"
+            },
+            "更新者": {
+                "type": "MODIFIER",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATE_MONTH": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_SIZE": {
+                "type": "DROP_DOWN",
+                "value": "SP"
+            },
+            "CREATIVE_TITLE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "無添加ホワイトニングLP"
+            },
+            "CREATE_YEAR": {
+                "type": "NUMBER",
+                "value": "2022"
+            },
+            "CREATIVE_URL": {
+                "type": "LINK",
+                "value": "https://www.fancl.co.jp/pub/whg/index_netm_sp"
+            },
+            "文字列__複数行_": {
+                "type": "MULTI_LINE_TEXT",
+                "value": ""
+            },
+            "全体キャプチャ": {
+                "type": "FILE",
+                "value": [
+                    {
+                        "fileKey": "20231213104908CF9151C616D44A38AE3A49C85252430D088",
+                        "name": "11-sp-f.png",
+                        "contentType": "image/png",
+                        "size": "15294998"
+                    }
+                ]
+            },
+            "発注元": {
+                "type": "DROP_DOWN",
+                "value": "CA（モノクラム）"
+            },
+            "CREATE_DAY": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_TEXT": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "ファンケル様の無添加ホワイトニングシリーズのLPを制作しました。\n● 対応領域：コーディング ● 対応人数：1名"
+            },
+            "公開フラグ": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "🔒 非公開"
+            },
+            "作成者": {
+                "type": "CREATOR",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATIVE_CODE": {
+                "type": "NUMBER",
+                "value": "11"
+            },
+            "$revision": {
+                "type": "__REVISION__",
+                "value": "5"
+            },
+            "更新日時": {
+                "type": "UPDATED_TIME",
+                "value": "2023-12-14T08:51:00Z"
+            },
+            "CREATE_DATE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "2022"
+            },
+            "CREATIVE_PUBLIC": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "PRIVATE"
+            },
+            "添付ファイル": {
+                "type": "FILE",
+                "value": []
+            },
+            "CREATIVE_CATEGORY": {
+                "type": "DROP_DOWN",
+                "value": "LP"
+            },
+            "作成日時": {
+                "type": "CREATED_TIME",
+                "value": "2023-12-13T10:42:00Z"
+            },
+            "$id": {
+                "type": "__ID__",
+                "value": "11"
+            }
+        },
+        {
+            "レコード番号": {
+                "type": "RECORD_NUMBER",
+                "value": "10"
+            },
+            "CREATIVE_TAG": {
+                "type": "CHECK_BOX",
+                "value": [
+                    "静的ページ"
+                ]
+            },
+            "CREATIVE_REQUESTER": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "株式会社 ジェーシービー"
+            },
+            "状況": {
+                "type": "DROP_DOWN",
+                "value": "本番公開中"
+            },
+            "更新者": {
+                "type": "MODIFIER",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATE_MONTH": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_SIZE": {
+                "type": "DROP_DOWN",
+                "value": "PC/SP"
+            },
+            "CREATIVE_TITLE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "JCBプレモカード"
+            },
+            "CREATE_YEAR": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_URL": {
+                "type": "LINK",
+                "value": "https://www.jcb.co.jp/promotion/jcb_premo/"
+            },
+            "文字列__複数行_": {
+                "type": "MULTI_LINE_TEXT",
+                "value": ""
+            },
+            "全体キャプチャ": {
+                "type": "FILE",
+                "value": [
+                    {
+                        "fileKey": "2023121208273107B6BB5E942B48EDA8388AD0E3B4423B308",
+                        "name": "Screenshot 2023-12-12 at 17-25-00 JCBプレモカード ｜ Amazon・マクドナルドをはじめコンビニでも利用できる、JCBの新しいギフトカード.png",
+                        "contentType": "image/png",
+                        "size": "2985309"
+                    },
+                    {
+                        "fileKey": "20231212083239E49AE5566DAC44A3AECB16C09E8C1CEE355",
+                        "name": "Screenshot 2023-12-12 at 17-32-22 JCBプレモカード ｜ Amazon・マクドナルドをはじめコンビニでも利用できる、JCBの新しいギフトカード.png",
+                        "contentType": "image/png",
+                        "size": "2729425"
+                    }
+                ]
+            },
+            "発注元": {
+                "type": "DROP_DOWN",
+                "value": "CA（モノクラム）"
+            },
+            "CREATE_DAY": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_TEXT": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "株式会社ジェーシービー様の「JCBプレモカード」LPです。\nシーズンごとに更新対応（2019年～2020年7月ごろまで）を行っていました。\n● 対応領域：コーディング ● 対応人数：1名"
+            },
+            "公開フラグ": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "🔒 非公開"
+            },
+            "作成者": {
+                "type": "CREATOR",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATIVE_CODE": {
+                "type": "NUMBER",
+                "value": "10"
+            },
+            "$revision": {
+                "type": "__REVISION__",
+                "value": "4"
+            },
+            "更新日時": {
+                "type": "UPDATED_TIME",
+                "value": "2023-12-14T08:51:00Z"
+            },
+            "CREATE_DATE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": ""
+            },
+            "CREATIVE_PUBLIC": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "PRIVATE"
+            },
+            "添付ファイル": {
+                "type": "FILE",
+                "value": []
+            },
+            "CREATIVE_CATEGORY": {
+                "type": "DROP_DOWN",
+                "value": "LP"
+            },
+            "作成日時": {
+                "type": "CREATED_TIME",
+                "value": "2023-12-12T08:34:00Z"
+            },
+            "$id": {
+                "type": "__ID__",
+                "value": "10"
+            }
+        },
+        {
+            "レコード番号": {
+                "type": "RECORD_NUMBER",
+                "value": "9"
+            },
+            "CREATIVE_TAG": {
+                "type": "CHECK_BOX",
+                "value": [
+                    "静的ページ"
+                ]
+            },
+            "CREATIVE_REQUESTER": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "サポート塾 翔"
+            },
+            "状況": {
+                "type": "DROP_DOWN",
+                "value": "本番公開中"
+            },
+            "更新者": {
+                "type": "MODIFIER",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATE_MONTH": {
+                "type": "NUMBER",
+                "value": "10"
+            },
+            "CREATIVE_SIZE": {
+                "type": "DROP_DOWN",
+                "value": "レスポンシブ"
+            },
+            "CREATIVE_TITLE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "サポート塾「翔」公式サイト"
+            },
+            "CREATE_YEAR": {
+                "type": "NUMBER",
+                "value": "2023"
+            },
+            "CREATIVE_URL": {
+                "type": "LINK",
+                "value": "https://support-juku-sho.com/"
+            },
+            "文字列__複数行_": {
+                "type": "MULTI_LINE_TEXT",
+                "value": ""
+            },
+            "全体キャプチャ": {
+                "type": "FILE",
+                "value": []
+            },
+            "発注元": {
+                "type": "DROP_DOWN",
+                "value": "KnotWorks"
+            },
+            "CREATE_DAY": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_TEXT": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "サポート塾「翔」の公式サイトを制作しました。\n● 対応領域：コーディング ● 対応人数：2名"
+            },
+            "公開フラグ": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "🌍 公開"
+            },
+            "作成者": {
+                "type": "CREATOR",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATIVE_CODE": {
+                "type": "NUMBER",
+                "value": "9"
+            },
+            "$revision": {
+                "type": "__REVISION__",
+                "value": "5"
+            },
+            "更新日時": {
+                "type": "UPDATED_TIME",
+                "value": "2023-12-14T08:51:00Z"
+            },
+            "CREATE_DATE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "2023 - 10"
+            },
+            "CREATIVE_PUBLIC": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "PUBLIC"
+            },
+            "添付ファイル": {
+                "type": "FILE",
+                "value": []
+            },
+            "CREATIVE_CATEGORY": {
+                "type": "DROP_DOWN",
+                "value": "Webサイト"
+            },
+            "作成日時": {
+                "type": "CREATED_TIME",
+                "value": "2023-12-12T07:58:00Z"
+            },
+            "$id": {
+                "type": "__ID__",
+                "value": "9"
+            }
+        },
+        {
+            "レコード番号": {
+                "type": "RECORD_NUMBER",
+                "value": "8"
+            },
+            "CREATIVE_TAG": {
+                "type": "CHECK_BOX",
+                "value": [
+                    "静的ページ"
+                ]
+            },
+            "CREATIVE_REQUESTER": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "株式会社わっしょい"
+            },
+            "状況": {
+                "type": "DROP_DOWN",
+                "value": "本番公開中"
+            },
+            "更新者": {
+                "type": "MODIFIER",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATE_MONTH": {
+                "type": "NUMBER",
+                "value": "8"
+            },
+            "CREATIVE_SIZE": {
+                "type": "DROP_DOWN",
+                "value": "レスポンシブ"
+            },
+            "CREATIVE_TITLE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "お助けレンタカー公式サイト"
+            },
+            "CREATE_YEAR": {
+                "type": "NUMBER",
+                "value": "2023"
+            },
+            "CREATIVE_URL": {
+                "type": "LINK",
+                "value": "https://otasuke-rentacar.com/"
+            },
+            "文字列__複数行_": {
+                "type": "MULTI_LINE_TEXT",
+                "value": ""
+            },
+            "全体キャプチャ": {
+                "type": "FILE",
+                "value": []
+            },
+            "発注元": {
+                "type": "DROP_DOWN",
+                "value": "KnotWorks"
+            },
+            "CREATE_DAY": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_TEXT": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "お助けレンタカーの公式サイトを制作しました。\n● 対応領域：コーディング ● 対応人数：1名"
+            },
+            "公開フラグ": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "🌍 公開"
+            },
+            "作成者": {
+                "type": "CREATOR",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATIVE_CODE": {
+                "type": "NUMBER",
+                "value": "8"
+            },
+            "$revision": {
+                "type": "__REVISION__",
+                "value": "4"
+            },
+            "更新日時": {
+                "type": "UPDATED_TIME",
+                "value": "2023-12-14T08:52:00Z"
+            },
+            "CREATE_DATE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "2023 - 8"
+            },
+            "CREATIVE_PUBLIC": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "PUBLIC"
+            },
+            "添付ファイル": {
+                "type": "FILE",
+                "value": []
+            },
+            "CREATIVE_CATEGORY": {
+                "type": "DROP_DOWN",
+                "value": "Webサイト"
+            },
+            "作成日時": {
+                "type": "CREATED_TIME",
+                "value": "2023-12-12T07:55:00Z"
+            },
+            "$id": {
+                "type": "__ID__",
+                "value": "8"
+            }
+        },
+        {
+            "レコード番号": {
+                "type": "RECORD_NUMBER",
+                "value": "7"
+            },
+            "CREATIVE_TAG": {
+                "type": "CHECK_BOX",
+                "value": [
+                    "Wordpress"
+                ]
+            },
+            "CREATIVE_REQUESTER": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "一般社団法人 日本視覚障害者囲碁協会"
+            },
+            "状況": {
+                "type": "DROP_DOWN",
+                "value": "本番公開中"
+            },
+            "更新者": {
+                "type": "MODIFIER",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATE_MONTH": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_SIZE": {
+                "type": "DROP_DOWN",
+                "value": "レスポンシブ"
+            },
+            "CREATIVE_TITLE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "日本視覚障害者囲碁協会 公式サイト"
+            },
+            "CREATE_YEAR": {
+                "type": "NUMBER",
+                "value": "2022"
+            },
+            "CREATIVE_URL": {
+                "type": "LINK",
+                "value": "https://aigo.tokyo/"
+            },
+            "文字列__複数行_": {
+                "type": "MULTI_LINE_TEXT",
+                "value": ""
+            },
+            "全体キャプチャ": {
+                "type": "FILE",
+                "value": []
+            },
+            "発注元": {
+                "type": "DROP_DOWN",
+                "value": "KnotWorks"
+            },
+            "CREATE_DAY": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_TEXT": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "一般社団法人 日本視覚障害者囲碁協会様の公式サイトを制作しました。\n● 対応領域：コーディング、SGF変換ツールの制作"
+            },
+            "公開フラグ": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "🌍 公開"
+            },
+            "作成者": {
+                "type": "CREATOR",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATIVE_CODE": {
+                "type": "NUMBER",
+                "value": "7"
+            },
+            "$revision": {
+                "type": "__REVISION__",
+                "value": "3"
+            },
+            "更新日時": {
+                "type": "UPDATED_TIME",
+                "value": "2023-12-12T08:19:00Z"
+            },
+            "CREATE_DATE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "2022"
+            },
+            "CREATIVE_PUBLIC": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "PUBLIC"
+            },
+            "添付ファイル": {
+                "type": "FILE",
+                "value": []
+            },
+            "CREATIVE_CATEGORY": {
+                "type": "DROP_DOWN",
+                "value": "Webサイト"
+            },
+            "作成日時": {
+                "type": "CREATED_TIME",
+                "value": "2023-12-12T07:28:00Z"
+            },
+            "$id": {
+                "type": "__ID__",
+                "value": "7"
+            }
+        },
+        {
+            "レコード番号": {
+                "type": "RECORD_NUMBER",
+                "value": "6"
+            },
+            "CREATIVE_TAG": {
+                "type": "CHECK_BOX",
+                "value": [
+                    "Wix"
+                ]
+            },
+            "CREATIVE_REQUESTER": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "Mal Dive"
+            },
+            "状況": {
+                "type": "DROP_DOWN",
+                "value": "本番公開中"
+            },
+            "更新者": {
+                "type": "MODIFIER",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATE_MONTH": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_SIZE": {
+                "type": "DROP_DOWN",
+                "value": "PC"
+            },
+            "CREATIVE_TITLE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "Mal Dive 公式サイト"
+            },
+            "CREATE_YEAR": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_URL": {
+                "type": "LINK",
+                "value": "https://www.mal-dive.com/"
+            },
+            "文字列__複数行_": {
+                "type": "MULTI_LINE_TEXT",
+                "value": ""
+            },
+            "全体キャプチャ": {
+                "type": "FILE",
+                "value": []
+            },
+            "発注元": {
+                "type": "DROP_DOWN",
+                "value": "KnotWorks"
+            },
+            "CREATE_DAY": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_TEXT": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "ダイビングショップ Mal Dive 様の公式サイトを制作しました。\n● 対応領域：コーディング ● 対応人数：2名"
+            },
+            "公開フラグ": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "🌍 公開"
+            },
+            "作成者": {
+                "type": "CREATOR",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATIVE_CODE": {
+                "type": "NUMBER",
+                "value": "6"
+            },
+            "$revision": {
+                "type": "__REVISION__",
+                "value": "4"
+            },
+            "更新日時": {
+                "type": "UPDATED_TIME",
+                "value": "2023-12-12T08:19:00Z"
+            },
+            "CREATE_DATE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": ""
+            },
+            "CREATIVE_PUBLIC": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "PUBLIC"
+            },
+            "添付ファイル": {
+                "type": "FILE",
+                "value": []
+            },
+            "CREATIVE_CATEGORY": {
+                "type": "DROP_DOWN",
+                "value": "Webサイト"
+            },
+            "作成日時": {
+                "type": "CREATED_TIME",
+                "value": "2023-12-12T07:26:00Z"
+            },
+            "$id": {
+                "type": "__ID__",
+                "value": "6"
+            }
+        },
+        {
+            "レコード番号": {
+                "type": "RECORD_NUMBER",
+                "value": "5"
+            },
+            "CREATIVE_TAG": {
+                "type": "CHECK_BOX",
+                "value": [
+                    "Wordpress",
+                    "公開不可案件"
+                ]
+            },
+            "CREATIVE_REQUESTER": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "有限会社 アスカ・エフ・プロダクツ"
+            },
+            "状況": {
+                "type": "DROP_DOWN",
+                "value": "本番公開中"
+            },
+            "更新者": {
+                "type": "MODIFIER",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATE_MONTH": {
+                "type": "NUMBER",
+                "value": "3"
+            },
+            "CREATIVE_SIZE": {
+                "type": "DROP_DOWN",
+                "value": "レスポンシブ"
+            },
+            "CREATIVE_TITLE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "アスカ・エフ・プロダクツ公式サイト"
+            },
+            "CREATE_YEAR": {
+                "type": "NUMBER",
+                "value": "2023"
+            },
+            "CREATIVE_URL": {
+                "type": "LINK",
+                "value": "https://asuka-f.co.jp/"
+            },
+            "文字列__複数行_": {
+                "type": "MULTI_LINE_TEXT",
+                "value": ""
+            },
+            "全体キャプチャ": {
+                "type": "FILE",
+                "value": []
+            },
+            "発注元": {
+                "type": "DROP_DOWN",
+                "value": "KnotWorks"
+            },
+            "CREATE_DAY": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_TEXT": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "有限会社 アスカ・エフ・プロダクツ様の公式コーポレートサイトを制作しました。\n● 対応領域：コーディング ● 対応人数：2名 ● 制作期間：約2ヶ月"
+            },
+            "公開フラグ": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "🔒 非公開"
+            },
+            "作成者": {
+                "type": "CREATOR",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATIVE_CODE": {
+                "type": "NUMBER",
+                "value": "5"
+            },
+            "$revision": {
+                "type": "__REVISION__",
+                "value": "5"
+            },
+            "更新日時": {
+                "type": "UPDATED_TIME",
+                "value": "2023-12-12T08:19:00Z"
+            },
+            "CREATE_DATE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "2023 - 3"
+            },
+            "CREATIVE_PUBLIC": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "PRIVATE"
+            },
+            "添付ファイル": {
+                "type": "FILE",
+                "value": []
+            },
+            "CREATIVE_CATEGORY": {
+                "type": "DROP_DOWN",
+                "value": "Webサイト"
+            },
+            "作成日時": {
+                "type": "CREATED_TIME",
+                "value": "2023-12-12T07:19:00Z"
+            },
+            "$id": {
+                "type": "__ID__",
+                "value": "5"
+            }
+        },
+        {
+            "レコード番号": {
+                "type": "RECORD_NUMBER",
+                "value": "4"
+            },
+            "CREATIVE_TAG": {
+                "type": "CHECK_BOX",
+                "value": [
+                    "Wordpress"
+                ]
+            },
+            "CREATIVE_REQUESTER": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "株式会社 lab"
+            },
+            "状況": {
+                "type": "DROP_DOWN",
+                "value": "本番公開中"
+            },
+            "更新者": {
+                "type": "MODIFIER",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATE_MONTH": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_SIZE": {
+                "type": "DROP_DOWN",
+                "value": "レスポンシブ"
+            },
+            "CREATIVE_TITLE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "株式会社 lab 公式サイト"
+            },
+            "CREATE_YEAR": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_URL": {
+                "type": "LINK",
+                "value": "https://lab-okinawa.com/"
+            },
+            "文字列__複数行_": {
+                "type": "MULTI_LINE_TEXT",
+                "value": ""
+            },
+            "全体キャプチャ": {
+                "type": "FILE",
+                "value": []
+            },
+            "発注元": {
+                "type": "DROP_DOWN",
+                "value": "KnotWorks"
+            },
+            "CREATE_DAY": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_TEXT": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "株式会社 lab 様の公式サイトを制作しました。\n● 対応領域：コーディング ● 対応人数：2名"
+            },
+            "公開フラグ": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "🌍 公開"
+            },
+            "作成者": {
+                "type": "CREATOR",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATIVE_CODE": {
+                "type": "NUMBER",
+                "value": "4"
+            },
+            "$revision": {
+                "type": "__REVISION__",
+                "value": "5"
+            },
+            "更新日時": {
+                "type": "UPDATED_TIME",
+                "value": "2023-12-13T00:20:00Z"
+            },
+            "CREATE_DATE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": ""
+            },
+            "CREATIVE_PUBLIC": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "PUBLIC"
+            },
+            "添付ファイル": {
+                "type": "FILE",
+                "value": []
+            },
+            "CREATIVE_CATEGORY": {
+                "type": "DROP_DOWN",
+                "value": "Webサイト"
+            },
+            "作成日時": {
+                "type": "CREATED_TIME",
+                "value": "2023-12-12T07:17:00Z"
+            },
+            "$id": {
+                "type": "__ID__",
+                "value": "4"
+            }
+        },
+        {
+            "レコード番号": {
+                "type": "RECORD_NUMBER",
+                "value": "3"
+            },
+            "CREATIVE_TAG": {
+                "type": "CHECK_BOX",
+                "value": [
+                    "Wordpress"
+                ]
+            },
+            "CREATIVE_REQUESTER": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "株式会社まえだ"
+            },
+            "状況": {
+                "type": "DROP_DOWN",
+                "value": "本番公開中"
+            },
+            "更新者": {
+                "type": "MODIFIER",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATE_MONTH": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_SIZE": {
+                "type": "DROP_DOWN",
+                "value": "レスポンシブ"
+            },
+            "CREATIVE_TITLE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "真栄田岬 公式サイト"
+            },
+            "CREATE_YEAR": {
+                "type": "NUMBER",
+                "value": "2020"
+            },
+            "CREATIVE_URL": {
+                "type": "LINK",
+                "value": "https://maedamisaki.jp/"
+            },
+            "文字列__複数行_": {
+                "type": "MULTI_LINE_TEXT",
+                "value": ""
+            },
+            "全体キャプチャ": {
+                "type": "FILE",
+                "value": []
+            },
+            "発注元": {
+                "type": "DROP_DOWN",
+                "value": "KnotWorks"
+            },
+            "CREATE_DAY": {
+                "type": "NUMBER",
+                "value": ""
+            },
+            "CREATIVE_TEXT": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "青の洞窟で有名な真栄田岬の公式サイトを制作しました。\n● 対応領域：コーディング ● 対応人数：2名"
+            },
+            "公開フラグ": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "🌍 公開"
+            },
+            "作成者": {
+                "type": "CREATOR",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATIVE_CODE": {
+                "type": "NUMBER",
+                "value": "3"
+            },
+            "$revision": {
+                "type": "__REVISION__",
+                "value": "4"
+            },
+            "更新日時": {
+                "type": "UPDATED_TIME",
+                "value": "2023-12-12T08:19:00Z"
+            },
+            "CREATE_DATE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "2020"
+            },
+            "CREATIVE_PUBLIC": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "PUBLIC"
+            },
+            "添付ファイル": {
+                "type": "FILE",
+                "value": []
+            },
+            "CREATIVE_CATEGORY": {
+                "type": "DROP_DOWN",
+                "value": "Webサイト"
+            },
+            "作成日時": {
+                "type": "CREATED_TIME",
+                "value": "2023-12-12T06:20:00Z"
+            },
+            "$id": {
+                "type": "__ID__",
+                "value": "3"
+            }
+        },
+        {
+            "レコード番号": {
+                "type": "RECORD_NUMBER",
+                "value": "2"
+            },
+            "CREATIVE_TAG": {
+                "type": "CHECK_BOX",
+                "value": [
+                    "静的ページ",
+                    "動作がポイント"
+                ]
+            },
+            "CREATIVE_REQUESTER": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "株式会社AbemaTV"
+            },
+            "状況": {
+                "type": "DROP_DOWN",
+                "value": "公開前"
+            },
+            "更新者": {
+                "type": "MODIFIER",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATE_MONTH": {
+                "type": "NUMBER",
+                "value": "12"
+            },
+            "CREATIVE_SIZE": {
+                "type": "DROP_DOWN",
+                "value": "SP"
+            },
+            "CREATIVE_TITLE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "奇跡の歯ブラシ"
+            },
+            "CREATE_YEAR": {
+                "type": "NUMBER",
+                "value": "2023"
+            },
+            "CREATIVE_URL": {
+                "type": "LINK",
+                "value": ""
+            },
+            "文字列__複数行_": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "アンケートLP\n2パターン制作\n選択肢に応じて、コンテンツの一部が変化する"
+            },
+            "全体キャプチャ": {
+                "type": "FILE",
+                "value": [
+                    {
+                        "fileKey": "20231211024058F299E278A86042D9973FFF7294E39380287",
+                        "name": "Screenshot 2023-12-11 at 11-40-41 奇跡の歯ブラシ.png",
+                        "contentType": "image/png",
+                        "size": "4340979"
+                    },
+                    {
+                        "fileKey": "202312110240587F00E58FF8994D96B043CD6A903B59E6229",
+                        "name": "Screenshot 2023-12-11 at 11-34-39 奇跡の歯ブラシ.png",
+                        "contentType": "image/png",
+                        "size": "4323855"
+                    }
+                ]
+            },
+            "発注元": {
+                "type": "DROP_DOWN",
+                "value": "CA（玉城さん）"
+            },
+            "CREATE_DAY": {
+                "type": "NUMBER",
+                "value": "13"
+            },
+            "CREATIVE_TEXT": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "回答に応じて、コンテンツの一部が変化するアンケートLPを制作しました。\n● 担当領域：コーディング ● 対応人数：1名 ● 制作工数：約8時間"
+            },
+            "公開フラグ": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "🔒 非公開"
+            },
+            "作成者": {
+                "type": "CREATOR",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATIVE_CODE": {
+                "type": "NUMBER",
+                "value": "2"
+            },
+            "$revision": {
+                "type": "__REVISION__",
+                "value": "8"
+            },
+            "更新日時": {
+                "type": "UPDATED_TIME",
+                "value": "2023-12-14T08:52:00Z"
+            },
+            "CREATE_DATE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "2023 - 12 - 13"
+            },
+            "CREATIVE_PUBLIC": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "PRIVATE"
+            },
+            "添付ファイル": {
+                "type": "FILE",
+                "value": []
+            },
+            "CREATIVE_CATEGORY": {
+                "type": "DROP_DOWN",
+                "value": "LP"
+            },
+            "作成日時": {
+                "type": "CREATED_TIME",
+                "value": "2023-12-11T02:41:00Z"
+            },
+            "$id": {
+                "type": "__ID__",
+                "value": "2"
+            }
+        },
+        {
+            "レコード番号": {
+                "type": "RECORD_NUMBER",
+                "value": "1"
+            },
+            "CREATIVE_TAG": {
+                "type": "CHECK_BOX",
+                "value": [
+                    "EC"
+                ]
+            },
+            "CREATIVE_REQUESTER": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "株式会社サイバーエージェント"
+            },
+            "状況": {
+                "type": "DROP_DOWN",
+                "value": "非公開/掲載終了"
+            },
+            "更新者": {
+                "type": "MODIFIER",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATE_MONTH": {
+                "type": "NUMBER",
+                "value": "12"
+            },
+            "CREATIVE_SIZE": {
+                "type": "DROP_DOWN",
+                "value": "レスポンシブ"
+            },
+            "CREATIVE_TITLE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "シークレット"
+            },
+            "CREATE_YEAR": {
+                "type": "NUMBER",
+                "value": "2020"
+            },
+            "CREATIVE_URL": {
+                "type": "LINK",
+                "value": "https://toricowear.theshop.jp/"
+            },
+            "文字列__複数行_": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "サイバーエージェントのプレスリリース\nhttps://www.cyberagent.co.jp/news/detail/id=25531"
+            },
+            "全体キャプチャ": {
+                "type": "FILE",
+                "value": [
+                    {
+                        "fileKey": "202312080802216123E7BECA2442AA814539BD870B4C8C151",
+                        "name": "Screenshot 2023-12-08 at 16-46-32 虜 Produced by Yumi Adachi.png",
+                        "contentType": "image/png",
+                        "size": "7810428"
+                    }
+                ]
+            },
+            "発注元": {
+                "type": "DROP_DOWN",
+                "value": "CA（モノクラム）"
+            },
+            "CREATE_DAY": {
+                "type": "NUMBER",
+                "value": "15"
+            },
+            "CREATIVE_TEXT": {
+                "type": "MULTI_LINE_TEXT",
+                "value": "安達祐実様と株式会社サイバーエージェント様が共同でリリースしたアパレルブランド「虜（Torico）」のECサイトを制作しました。\n（サイバーエージェント様のプレスリリース：https://www.cyberagent.co.jp/news/detail/id=25531）\nなお、現在は、別の方で更新対応されています。\n● 対応領域：技術調査、コーディング ● 対応人数：1名 ● 制作期間：約1ヶ月"
+            },
+            "公開フラグ": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "🔒 非公開"
+            },
+            "作成者": {
+                "type": "CREATOR",
+                "value": {
+                    "code": "d.uezu@ospsol.com",
+                    "name": "上江洲大"
+                }
+            },
+            "CREATIVE_CODE": {
+                "type": "NUMBER",
+                "value": "1"
+            },
+            "$revision": {
+                "type": "__REVISION__",
+                "value": "11"
+            },
+            "更新日時": {
+                "type": "UPDATED_TIME",
+                "value": "2023-12-12T08:20:00Z"
+            },
+            "CREATE_DATE": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "2020 - 12 - 15"
+            },
+            "CREATIVE_PUBLIC": {
+                "type": "SINGLE_LINE_TEXT",
+                "value": "PRIVATE"
+            },
+            "添付ファイル": {
+                "type": "FILE",
+                "value": []
+            },
+            "CREATIVE_CATEGORY": {
+                "type": "DROP_DOWN",
+                "value": "Webサイト"
+            },
+            "作成日時": {
+                "type": "CREATED_TIME",
+                "value": "2023-12-08T08:03:00Z"
+            },
+            "$id": {
+                "type": "__ID__",
+                "value": "1"
+            }
+        }
+    ],
+    "totalCount": null
+}

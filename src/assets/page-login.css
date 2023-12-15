@@ -1,0 +1,12 @@
+/* 
+
+PAGE-LOGIN
+
+ログインページのみに適用されるCSSです
+
+*/
+
+.box {
+    width: 60rem; max-width: 95%;
+    margin:  4rem auto;
+}

@@ -1,0 +1,129 @@
+/* 
+
+PAGE-TOP
+
+TOPページのみに適用されるCSSです
+
+*/
+
+/* ------------------------------
+    サイドバー 
+------------------------------ */
+.filter input[type="checkbox"] {
+    display: none;
+}
+
+/* 複数選択 */
+.filter .multiselect--label {
+    margin: 0 auto 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem; font-weight: normal;
+    color: var(--color-black);
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--color-orange-light);
+}
+.filter .multiselect:checked + .multiselect--label {
+    background-color: var(--color-orange);
+}
+
+/* トグル */
+.filter .toggleselect--label {
+    width: 39px; height: 24px;
+    margin: 0 15px;
+    display: block;
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.toggleselect--label:before {
+    width: 100%; height: 100%;
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    display: block;
+    background-color: #e9e9eb;
+    transition: 0.1s ease-out;
+}
+.toggleselect--label:after {
+    content: "";
+    width: 21px; height: 21px;
+    position: absolute;
+    top: 1.4px; left: 1.4px;
+    display: block;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px -3px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    transition: 0.1s ease-out;
+}
+.toggleselect:checked + .toggleselect--label:before {
+    background-color: #35c759;
+}
+.toggleselect:checked + .toggleselect--label:after {
+    left: 16px;
+    box-shadow: 0 4px 12px -3px rgba(0, 0, 0, 0.5);
+}
+.toggleselect--box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.filter--item {
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.filter--name {
+    margin-bottom: 13px;
+    font-size: 1.6rem;
+}
+
+
+/* ------------------------------
+    一覧
+------------------------------ */
+.main--details {
+    margin: 4rem 0 4rem 2rem;
+    font-size: 1.6rem;
+    color: var(--color-gray);
+}
+.list_area {
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.item {
+    width: 400px; height: 225px;
+    margin-bottom: 15px;
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--color-gray);
+    background-position: top center; background-repeat: no-repeat; background-size: cover;
+}
+.item--title {
+    width: 100%; height: 3em;
+    padding: 10px;
+    font-size: 1.4rem; font-weight: bold;
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    background-color: var(--color-gray);
+}
+
+.nodata {
+    width: 100%;
+    padding: 4rem 0;
+    font-size: 2rem;
+    line-height: 2em;
+    color: var(--color-orange-light);
+    text-align: center;
+    letter-spacing: 0.15em;
+}
