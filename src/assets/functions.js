@@ -19,7 +19,7 @@ function listRefresh(data) {
 
     records.forEach((record) => {
         const size = record.CREATIVE_SIZE.value == 'sp' ? 'sp' : 'pc';
-        const imagePath = `./data/${record.CREATIVE_CODE.value}-${size}-s.jpeg`;
+        const imagePath = `${record.CREATIVE_CODE.value}-${size}-s.jpg`;
         const item = listItem(record.CREATIVE_TITLE.value, record.CREATIVE_CODE.value, imagePath);
         listArea.appendChild(item);
     });
@@ -44,7 +44,7 @@ function listItem(title, id, image) {
     let box = document.createElement('a');
     box.classList.add('item');
     box.href = './details/?creativecode=' + id;
-    box.style.backgroundImage = `url(./data/${image})`;
+    box.style.backgroundImage = `url("./data/${image}")`;
 
     titleBox = document.createElement('div');
     titleBox.classList.add('item--title');
@@ -155,7 +155,7 @@ function initDetails(creativecode) {
         }
 
         if (thisData.CREATIVE_SIZE.value === 'レスポンシブ' || thisData.CREATIVE_SIZE.value === 'PC/SP') {
-            document.getElementById('size').addEventListener('change', sizeToggleEvent());
+            document.getElementById('size').addEventListener('change', () => {sizeToggleEvent()});
         } else {
             document.querySelector('.size .toggleselect--box').innerHTML = '';
             document.querySelector('.size.info--item').appendChild(makeTagContent(thisData.CREATIVE_SIZE.value));
@@ -192,7 +192,7 @@ function makeTagContent(content) {
  * 詳細画面で、クリエイティブの画面サイズを切り替えたときに発火するイベントです
  */
 function sizeToggleEvent() {
-    if (document.getElementById('size').checked) {
+    if (document.getElementById('size').checked == true) {
         // True = SP
         document.querySelector('.main--image.image--pc').style.display = 'none';
         document.querySelector('.main--image.image--sp').style.display = 'block';
@@ -200,4 +200,45 @@ function sizeToggleEvent() {
         document.querySelector('.main--image.image--pc').style.display = 'block';
         document.querySelector('.main--image.image--sp').style.display = 'none';
     }
+}
+
+
+
+/**
+ * data/datatimeタイプのinput用の文字列を返します
+ * 
+ * @param {Date} targetDate 日付オブジェクト
+ * @param {Boolean} isIncludeTime true = datatime / false = data
+ * @returns String input[type=date/datetime] 用の日付形式の文字列
+ */
+function dateString(targetDate,isIncludeTime) {
+    let year = targetDate.getFullYear();
+    let month = ('0' + (targetDate.getMonth() + 1)).slice(-2);
+    let date = ('0' + targetDate.getDate()).slice(-2);
+    let result = year + '-' + month + '-' + date;
+
+    if (isIncludeTime) {
+        let hours = ('0' + targetDate.getHours()).slice(-2);
+        let minutes = ('0' + targetDate.getMinutes()).slice(-2);
+        result += 'T' + hours + ':' + minutes;
+    }
+
+    return result;
+}
+
+
+
+/**
+ * ランダムなコードを生成します
+ */
+function code() {
+    const character = ["A", "B", "C", "D", "E", "F", "G", "H", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "j", "k", "m", "n", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "+", "-", "~", "@", "*", "="];
+    const random = Math.floor(Math.random()*(16 - 6) + 6);
+    let codeStrings = "";
+    for (let index = 0; index < random; index++) {
+        const n = Math.floor(Math.random()*(60 - 0) + 0);
+        codeStrings += character[n];
+        console.log(n)
+    }
+    return codeStrings;
 }
