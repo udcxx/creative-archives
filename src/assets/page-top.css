@@ -130,6 +130,11 @@ a.is_secret_mode:hover {
     position: absolute;
     bottom: 0; left: 0; right: 0;
     backdrop-filter: blur(15px);
+    text-shadow:
+        1px 1px 1px #fff, -1px -1px 1px #fff,
+        -1px 1px 1px #fff,  1px -1px 1px #fff,
+        1px 0px 1px #fff, -1px  0px 1px #fff,
+        0px 1px 1px #fff,  0px -1px 1px #fff;
 }
 
 @supports not (backdrop-filter: blur(15px)) {
