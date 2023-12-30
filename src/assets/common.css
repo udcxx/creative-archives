@@ -33,7 +33,7 @@ body {
 ------------------------------ */
 .sidebar {
     width: var(--sidebar-size); height: 100vh;
-    font-size: 1.4rem;
+    font-size: 14px;
     position: relative;
     background-color: var(--color-background-side);
 }
@@ -53,7 +53,7 @@ body {
     display: block;
 }
 h1 {
-    font-size: 2rem; font-weight: bold;
+    font-size: 20px; font-weight: bold;
     text-align: center;
 }
 
@@ -67,11 +67,11 @@ h1 {
         left: calc(var(--sidebar-size) * -1);
     }
     .sidebar_togglebutton {
-        width: 4rem; height: 4rem;
+        width: 8rem; height: 8rem;
         padding-right: 0.5rem;
         position: absolute;
-        top: 1rem; right: -4rem;
-        font-size: 2rem;
+        top: 5rem; right: -8rem;
+        font-size: 20px;
         display: flex;
         justify-content: center; align-items: center;
         border-radius: 0 20px 20px 0;
@@ -109,4 +109,55 @@ main {
     main {
         width: 100vw;
     }
+}
+
+
+/* ------------------------------
+    フッター
+------------------------------ */
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0; left: 0; right: 0; z-index: 15;
+    background-color: var(--color-background-side);
+}
+footer ul {
+    width: 40%;
+    margin: 0 0 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    line-height: 2em;
+}
+
+@media (max-width: 1000px) {
+    footer ul {
+        width: 100vw;
+    }
+}
+
+footer li {
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+footer li::after {
+    content: '';
+    display: block;
+    width: 1px; height: 12px;
+    position: absolute;
+    right: 0; top: 50%;
+    transform: translateY(-50%);
+    border-right: 1px solid var(--color-gray);
+}
+footer li:nth-last-of-type(1)::after {
+    content: none;
+}
+footer li a {
+    display: block;
+}
+footer li a:hover {
+    opacity: 0.7;
 }

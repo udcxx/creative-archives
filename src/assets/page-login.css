@@ -7,8 +7,8 @@ PAGE-LOGIN
 */
 
 .box {
-    width: 60rem; max-width: 95%;
-    margin:  4rem auto;
+    width: 95%; max-width: 600px;
+    margin: 4rem auto;
     padding: 1rem 0 5rem;
     border-radius: 10px;
     background-color: var(--color-background-side);
@@ -17,24 +17,25 @@ PAGE-LOGIN
 .box a {
     margin-left: 1rem;
     color: var(--color-orange);
-    font-size: 1.6rem;
+    font-size: 16px;
 }
 
 .box h2 {
     margin: 5rem auto;
-    font-size: 3rem; font-weight: bold;
+    font-size: 30px; font-weight: bold;
     text-align: center;
 }
 
 .box p {
     margin-bottom: 4rem;
-    font-size: 1.6rem;
+    padding: 0 1em;
+    font-size: 16px;
     text-align: center;
 }
 
 .box p.error {
     margin-bottom: 2rem;
-    font-size: 1.4rem;
+    font-size: 14px;
     color: var(--color-red);
     text-align: center;
 }
@@ -43,7 +44,7 @@ PAGE-LOGIN
     width: 90%;
     margin: 4rem auto 2rem;
     display: block;
-    font-size: 1.8rem;
+    font-size: 18px;
     line-height: 2em;
     color: var(--color-black);
     text-align: center;
@@ -56,7 +57,7 @@ PAGE-LOGIN
 .box button {
     margin: 2rem auto 0;
     padding: 1rem 2rem;
-    font-size: 1.4rem; font-weight: bold;
+    font-size: 14px; font-weight: bold;
     color: var(--color-white);
     letter-spacing: 0.2em;
     display: block;

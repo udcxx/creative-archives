@@ -30,7 +30,7 @@
 <body>
     <div class="sidebar close">
         <div class="header">
-            <a href="https://app.udcxx.me/">
+            <a href="../">
                 <img src="https://blog.udcxx.me/_nuxt/logo.85a8d4fc.png" class="header--image">
             </a>
             <h1>udcxx creative archives</h1>
@@ -73,6 +73,15 @@
         <div class="main--image image--pc"></div>
         <div class="main--image image--sp"></div>
     </main>
+
+    <footer>
+        <ul>
+            <li><a href="https://app.udcxx.me/">Webツール・API</a></li>
+            <li><a href="https://blog.udcxx.me/">ブログ</a></li>
+            <li><a href="https://udcxx.me/">ポートフォリオ</a></li>
+            <li><a href="https://udcxx.me/contact/?sub=udcxx">お問い合わせ</a></li>
+        </ul>
+    </footer>
 
     <script>
         const params = location.search.substring(1).split('&');

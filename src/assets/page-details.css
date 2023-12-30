@@ -66,12 +66,12 @@ PAGE-DETAILS
 }
 .info--name {
     margin-bottom: 13px;
-    font-size: 1.6rem;
+    font-size: 16px;
 }
 .info--content {
     margin: 0 0.5rem 1rem 0;
     padding: 0.5rem 1rem;
-    font-size: 1.2rem; font-weight: normal;
+    font-size: 12px; font-weight: normal;
     color: var(--color-black);
     display: inline-block;
     border-radius: 10px;
@@ -86,34 +86,39 @@ PAGE-DETAILS
 ------------------------------ */
 
 .main--back {
-    margin: 2rem 0 4rem 4rem;   
-    font-size: 1.4rem;
+    margin: 2rem 0 4rem 4rem;
+    font-size: 14px;
     color: var(--color-orange);
     display: block;
 }
 .main--back:hover {
     opacity: 0.7;
 }
+@media (max-width: 768px) {
+    .main--back {
+        margin: 2rem 0 10rem 4rem;
+    }
+}
 
 .main--details {
-    margin: 4rem 0 4rem 4rem;
+    margin: 4rem;
     color: var(--color-gray);
 }
 .main--requester {
     margin-bottom: 2rem;
-    font-size: 1.6rem;
+    font-size: 16px;
 }
 .main--title {
     margin-bottom: 2rem;
-    font-size: 2.4rem; font-weight: bold;
+    font-size: 24px; font-weight: bold;
 }
 .main--url {
     margin-bottom: 2rem;
-    font-size: 1.2rem;
+    font-size: 12px;
 }
 .main--text {
     margin-bottom: 2rem;
-    font-size: 1.6rem;
+    font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.1em;
 }
@@ -136,7 +141,7 @@ PAGE-DETAILS
 .nodata {
     width: 100%;
     padding: 4rem 0;
-    font-size: 2rem;
+    font-size: 20px;
     line-height: 2em;
     color: var(--color-orange-light);
     text-align: center;

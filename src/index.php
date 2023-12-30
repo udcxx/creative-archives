@@ -34,7 +34,7 @@
 <body>
     <div class="sidebar close">
         <div class="header">
-            <a href="https://app.udcxx.me/">
+            <a href="/">
                 <img src="https://blog.udcxx.me/_nuxt/logo.85a8d4fc.png" class="header--image">
             </a>
             <h1>udcxx creative archives</h1>
@@ -100,6 +100,15 @@
         <p class="main--details">だいちゃん（udcxx）がこれまでに制作したクリエイティブの一覧です</p>
         <div class="list_area"></div>
     </main>
+
+    <footer>
+        <ul>
+            <li><a href="https://app.udcxx.me/">Webツール・API</a></li>
+            <li><a href="https://blog.udcxx.me/">ブログ</a></li>
+            <li><a href="https://udcxx.me/">ポートフォリオ</a></li>
+            <li><a href="https://udcxx.me/contact/?sub=udcxx">お問い合わせ</a></li>
+        </ul>
+    </footer>
 
     <script>
         let dataSet = <?php echo $data; ?>;
