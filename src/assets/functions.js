@@ -265,7 +265,6 @@ function code() {
     for (let index = 0; index < random; index++) {
         const n = Math.floor(Math.random()*(60 - 0) + 0);
         codeStrings += character[n];
-        console.log(n)
     }
     return codeStrings;
 }
