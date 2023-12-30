@@ -58,3 +58,4 @@ dist
 
 # vars
 vars.php
+.htpasswd
