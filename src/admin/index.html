@@ -52,10 +52,18 @@
                     codeError.innerText = 'サーバーエラーです。(code: 2)'
                 } else if (item[1] === '3') {
                     updateError.innerText = '(code: 3)'
+                } else if (item[1] === '4') {
+                    updateError.innerText = 'kintoneからのデータ取得に失敗しました。(code: 4)'
                 }
             } else if (item[0] === 'create') {
                 const successEl = document.querySelector('.success--code');
-                successEl.innerText = '✅ ' + item[1] + ' を登録しました。';
+                const createCode = item[1];
+                console.log(item);
+                successEl.innerText = '✅ ' + createCode + ' を登録しました';
+                navigator.clipboard.writeText(createCode);
+            } else if (item[0] === 'update') {
+                const successEl = document.querySelector('.success--update');
+                successEl.innerText = '✅ データのアップデートに成功しました';
             }
         });
     </script>
