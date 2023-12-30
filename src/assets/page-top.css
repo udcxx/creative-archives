@@ -125,10 +125,17 @@ a.is_secret_mode:hover {
 .item--title {
     width: 100%; height: 3em;
     padding: 10px;
+    color: var(--color-black);
     font-size: 1.4rem; font-weight: bold;
     position: absolute;
     bottom: 0; left: 0; right: 0;
-    background-color: var(--color-background-white-transparent);
+    backdrop-filter: blur(15px);
+}
+
+@supports not (backdrop-filter: blur(15px)) {
+    .item--title {
+        background-color: var(--color-background-white-transparent);
+    }
 }
 
 .nodata {
