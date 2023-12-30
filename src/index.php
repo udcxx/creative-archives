@@ -32,7 +32,7 @@
     <script src="./assets/functions.js" async></script>
 </head>
 <body>
-    <div class="sidebar">
+    <div class="sidebar close">
         <div class="header">
             <a href="https://app.udcxx.me/">
                 <img src="https://blog.udcxx.me/_nuxt/logo.85a8d4fc.png" class="header--image">
@@ -89,6 +89,11 @@
                 <label for="PC/SP" class="multiselect--label">PC/SP</label>
             </div><!-- / size -->
         </div><!-- / filtter -->
+
+        <div class="sidebar_togglebutton close">
+            <img src="./assets/close.svg" class="sidebar_togglebutton--close_icon">
+            <img src="./assets/open.svg" class="sidebar_togglebutton--open_icon">
+        </div>
     </div><!-- /sidebar -->
 
     <main>

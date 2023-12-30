@@ -4,8 +4,20 @@
 function init() {
     initFilterEvent();
     listRefresh(dataSet);
+
+    document.querySelector('.sidebar_togglebutton').addEventListener('click', () => {
+        sidebarToggleButton();
+    });
 };
 
+
+/**
+ * サイドバーのトグルボタンをクリックしたときの処理
+ */
+function sidebarToggleButton() {
+    document.querySelector('.sidebar').classList.toggle('close');
+    document.querySelector('.sidebar_togglebutton').classList.toggle('close');
+}
 
 /**
  * 一覧を作成します
@@ -178,6 +190,10 @@ function initDetails(creativecode) {
 
         document.querySelector('.category.info--item').appendChild(makeTagContent(thisData.CREATIVE_CATEGORY.value));
     }
+
+    document.querySelector('.sidebar_togglebutton').addEventListener('click', () => {
+        sidebarToggleButton();
+    });
 }
 
 

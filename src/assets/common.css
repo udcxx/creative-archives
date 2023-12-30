@@ -34,8 +34,13 @@ body {
 .sidebar {
     width: var(--sidebar-size); height: 100vh;
     font-size: 1.4rem;
+    position: relative;
     background-color: var(--color-background-side);
 }
+.sidebar_togglebutton {
+    display: none;
+}
+
 
 /* ヘッダー */
 .header {
@@ -52,6 +57,43 @@ h1 {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 0; left: 0; z-index: 10;
+        transition: left 0.5s 0s;
+    }
+    .sidebar.close {
+        left: calc(var(--sidebar-size) * -1);
+    }
+    .sidebar_togglebutton {
+        width: 4rem; height: 4rem;
+        padding-right: 0.5rem;
+        position: absolute;
+        top: 1rem; right: -4rem;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center; align-items: center;
+        border-radius: 0 20px 20px 0;
+        background-color: var(--color-background-side);
+        cursor: pointer;
+    }
+    .sidebar_togglebutton--close_icon {
+        width: 2rem; height: 2rem;
+        display: block;
+    }
+    .sidebar_togglebutton--open_icon {
+        display: none;
+    }
+    .sidebar_togglebutton.close > .sidebar_togglebutton--close_icon {
+        display: none;
+    }
+    .sidebar_togglebutton.close > .sidebar_togglebutton--open_icon {
+        width: 2rem; height: 2rem;
+        display: block;
+    }
+}
+
 
 /* ------------------------------
     メインエリア 
@@ -61,4 +103,10 @@ main {
     overflow-y: scroll;
     color: var(--color-black);
     background-color: var(--color-background);
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 100vw;
+    }
 }
