@@ -12,6 +12,9 @@
         }
     }
 
+    $data = file_get_contents("./data/".$data_souce.".json");
+    $data = mb_convert_encoding($data, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
+
 ?>
 
 <!DOCTYPE html>
@@ -94,9 +97,10 @@
     </main>
 
     <script>
-        const dataSouce = './data/<?php echo $data_souce; ?>.json';
-        let dataSet = {};
-        fetch(dataSouce).then((response) => response.json()).then((data) => {dataSet = data; init();});
+        let dataSet = <?php echo $data; ?>;
+        window.onload = () => {
+            init();
+        }
     </script>
 </body>
 </html>

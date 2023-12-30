@@ -8,6 +8,9 @@
             $data_souce = "private";
         }
     }
+
+    $data = file_get_contents("../data/".$data_souce.".json");
+    $data = mb_convert_encoding($data, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
 ?>
 
 <!DOCTYPE html>
@@ -69,7 +72,6 @@
 
     <script>
         const params = location.search.substring(1).split('&');
-        const dataSouce = '../data/<?php echo $data_souce; ?>.json';
         let creativecode = 0;
 
         params.forEach((pram) => {
@@ -78,8 +80,11 @@
                 creativecode = item[1]
             }
         });
-        let dataSet = {};
-        fetch(dataSouce).then((response) => response.json()).then((data) => {dataSet = data; initDetails(creativecode)});
+
+        let dataSet = <?php echo $data; ?>;
+        window.onload = () => {
+            initDetails(creativecode);
+        }
     </script>
 </body>
 </html>
