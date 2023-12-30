@@ -15,7 +15,7 @@ $opts = array(
 
 $context = stream_context_create($opts);
 
-$file = file_get_contents('https://'.KINTONE_DOMAIN.'.cybozu.com/k/v1/records.json?app='.KINTONE_APPID.'&fields[0]=CREATIVE_CODE&fields[1]=CREATIVE_TAG&fields[2]=CREATIVE_CATEGORY&fields[3]=CREATIVE_PUBLIC&fields[4]=CREATIVE_REQUESTER&fields[5]=CREATIVE_TITLE&fields[6]=CREATIVE_URL&fields[7]=CREATIVE_TEXT&fields[8]=CREATIVE_SIZE', false, $context);
+$file = file_get_contents('https://'.KINTONE_DOMAIN.'.cybozu.com/k/v1/records.json?app='.KINTONE_APPID.'&query=order+by+CREATIVE_PUBLIC+desc&fields[0]=CREATIVE_CODE&fields[1]=CREATIVE_TAG&fields[2]=CREATIVE_CATEGORY&fields[3]=CREATIVE_PUBLIC&fields[4]=CREATIVE_REQUESTER&fields[5]=CREATIVE_TITLE&fields[6]=CREATIVE_URL&fields[7]=CREATIVE_TEXT&fields[8]=CREATIVE_SIZE', false, $context);
 
 if ($file === false) {
     // Kintone接続エラー
