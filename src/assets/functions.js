@@ -19,7 +19,10 @@ function listRefresh(data) {
 
     records.forEach((record) => {
         const size = record.CREATIVE_SIZE.value == 'sp' ? 'sp' : 'pc';
-        const imagePath = `${record.CREATIVE_CODE.value}-${size}-s.jpg`;
+        let imagePath = 'secret.jpg';
+        if (record.CREATIVE_TITLE.value != 'シークレット') {
+            imagePath = `${record.CREATIVE_CODE.value}-${size}-s.jpg`;    
+        }
         const item = listItem(record.CREATIVE_TITLE.value, record.CREATIVE_CODE.value, imagePath);
         listArea.appendChild(item);
     });
@@ -159,6 +162,14 @@ function initDetails(creativecode) {
         } else {
             document.querySelector('.size .toggleselect--box').innerHTML = '';
             document.querySelector('.size.info--item').appendChild(makeTagContent(thisData.CREATIVE_SIZE.value));
+
+            if (thisData.CREATIVE_SIZE.value === 'PC') {
+                document.querySelector('.main--image.image--pc').style.display = 'block';
+                document.querySelector('.main--image.image--sp').style.display = 'none';
+            } else {
+                document.querySelector('.main--image.image--pc').style.display = 'none';
+                document.querySelector('.main--image.image--sp').style.display = 'block';
+            }
         }
 
         thisData.CREATIVE_TAG.value.forEach((tag) => {
