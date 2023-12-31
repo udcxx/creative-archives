@@ -67,3 +67,7 @@ PAGE-LOGIN
     border: solid 2px var(--color-white);
     background-color: var(--color-orange);
 }
+.box button:disabled {
+    cursor: not-allowed;
+    background-color: var(--color-gray);
+}

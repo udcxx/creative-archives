@@ -28,14 +28,14 @@
 </head>
 <body>
     <div class="box">
-        <a onclick="history.back();">&laquo; 戻る</a>
+        <a href="../" class="back">&laquo; 戻る</a>
         <h2>ログインページ</h2>
         <p>受け取った認証コードを入力し、ログインをクリックしてください</p>
         <form action="./certification.php" method="post">
             <input type="text" name="code" class="input--code">
             <p class="error"></p>
             <input type="text" name="creativecode" value="0" hidden>
-            <button type="submit">ログイン</button>
+            <button type="submit" disabled>ログイン</button>
         </form>
     </div>
 
@@ -46,6 +46,7 @@
             const item = pram.split('=');
             if (item[0] === 'creativecode') {
                 document.getElementsByName('creativecode')[0].value = item[1];
+                document.querySelector('.back').href = `../details/?creativecode=${item[1]}`;
             } else if (item[0] === 'error') {
                 const errorEl = document.querySelector('.error')
                 if (item[1] === '1') {
@@ -55,6 +56,14 @@
                 } else if (item[1] === '3') {
                     errorEl.innerText = '認証コードが間違っている、または、有効期限が切れています。(code: 3)'
                 }
+            }
+        });
+
+        document.getElementsByName('code')[0].addEventListener('keyup', () => {
+            if (document.getElementsByName('code')[0].value != "") {
+                document.querySelector('button').disabled = false;
+            } else {
+                document.querySelector('button').disabled = true;
             }
         });
     </script>

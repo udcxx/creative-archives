@@ -9,6 +9,7 @@
     $creative_code = 0;
 
     $code = $_POST['code'];
+
     if (isset($_POST['creativecode'])) {
         $creative_code = $_POST['creativecode'];
     }

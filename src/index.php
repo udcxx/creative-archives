@@ -106,7 +106,7 @@
             <li><a href="https://app.udcxx.me/">Webツール・API</a></li>
             <li><a href="https://blog.udcxx.me/">ブログ</a></li>
             <li><a href="https://udcxx.me/">ポートフォリオ</a></li>
-            <li><a href="https://udcxx.me/contact/?sub=udcxx">お問い合わせ</a></li>
+            <li><a href="https://udcxx.me/contact/?sub=udcxx" target="_blank">お問い合わせ</a></li>
         </ul>
     </footer>
 
